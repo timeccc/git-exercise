@@ -30,5 +30,3 @@ else:
     for num in sorted(count_dict.keys()):
         percentage = count_dict[num] / 2000000 * 100
         print(f"{num}\t{count_dict[num]}\t{percentage:.2f}%")
-
-#嘿嘿嘿，代码完成了！
